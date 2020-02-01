@@ -1,0 +1,297 @@
+body {
+  background-color: lavender;
+  padding-bottom: 200px;
+ 
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.logo {
+  position: absolute;
+  width: 20%;
+  left: 40%;
+  top: 500px;
+  z-index: 1;
+  }
+
+.fade-in {
+  animation: fadeIn 3s
+}
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1
+    }
+  }
+
+  
+  .jumbotron {
+    background-image: url("img/background.png");
+    margin-bottom: 0;
+    padding: 100px;
+    font-family: fantasy;
+  }
+  
+  .hero img {
+    width: 100%;
+  }
+  
+  #form {
+    background-image: url(https://s3.amazonaws.com/noupe/2017/10/bubblydefault.gif);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300px;
+    padding: 50px 300px 50px 300px;
+    
+    
+  }
+  
+  
+  
+  form {
+    /* margin: 50px; */
+    background-color: white;
+    border: solid tan 5px;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    Box-shadow: 12px 12px 12px 0 rgb(110, 105, 105);
+    background-image: url("img/background.png");
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  #sortButton {
+    margin-top: 20px;
+    
+  }
+
+  input[type="text"]
+{
+    font-size:24px;
+}
+
+  .form-inline {
+    padding: 20px 0 20px 40px;
+  }
+  
+  #card {
+    background-image: linear-gradient(#adab9e, #5f6761);
+    padding: 40px 100px;
+  }
+  
+  .card {
+    margin: 10px ;
+    Box-shadow: 12px 12px 12px 0 rgb(110, 105, 105);
+    margin-bottom: 10px; 
+  }
+  
+  .card-body {
+    background-color: #a51731 ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    border-radius: 30px;
+    border: solid tan 5px;
+  }
+  
+.school {
+  padding: 100px;
+  background-image: url("img/background.png");
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* ----------------------------------------------------------------------------------------houses */
+
+#Gryffindor {
+  padding: 100px;
+  background-image: url("/img/_0003_griiff.png"); 
+  background-size: cover; 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.gryffindor p {
+  padding: 60 100 30 100px;
+
+}
+
+.gryffindor img {
+  margin: 40px;
+  border: white solid 5px;
+  Box-shadow: 12px 12px 12px 0 rgb(110, 105, 105);
+}
+
+.gryffindor h1::after {
+  content: "";
+  background: grey;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+}
+
+
+#Hufflepuff {
+  padding: 100px;
+  background-image: url("img/_0002_huff.png");
+  background-size: cover; 
+  font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+.Hufflepuff p {
+  padding: 60 100 30px;
+}
+
+.Hufflepuff img {
+  margin: 40px;
+  border: white solid 5px;
+  Box-shadow: 12px 12px 12px 0 rgb(110, 105, 105);
+}
+
+.Hufflepuff h1::after {
+  content: "";
+  background: grey;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+}
+
+#Ravenclaw {
+  padding: 100px;
+  background-image: url("img/_0001_raven.png"); 
+  background-size: cover; 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Ravenclaw p {
+  padding: 60 100 30px;
+}
+
+.Ravenclaw img {
+  margin: 40px;
+  border: white solid 5px;
+  Box-shadow: 12px 12px 12px 0 rgb(110, 105, 105);
+}
+
+.Ravenclaw h1::after {
+  content: "";
+  background: grey;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+}
+
+#Slytherin {
+  padding: 100px;
+  background-image: url("img/_0000_slither.png"); 
+  background-size: cover; 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Slytherin p {
+  padding: 60 100 30px;
+}
+
+.Slytherin img {
+  margin: 40px;
+  border: white solid 5px;
+  Box-shadow: 12px 12px 12px 0 rgb(110, 105, 105);
+}
+
+.Slytherin h1::after {
+  content: "";
+  background: grey;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+}
+
+
+.houses img {
+  /* padding-left: 39%; */
+  padding-bottom: 30px;
+  padding-top: 40PX;
+}
+
+.houses p {
+  text-align: justify;
+  padding-bottom: 0,100,30 100px;
+}
+
+
+
+/* ---------------------------------------------------------------------------------social media */
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.twitter {
+  background: #55acee;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+p {
+  text-align: justify;
+  padding-bottom: 0,100,30 100px;
+}
+footer {
+  margin-top: 20px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #a51731 ;
+
+  color: white;
+  text-align: center;
+  font-size: 10px;
+}
+
+footer img {
+  padding-top: 10px;
+  width: 200px;
+}
