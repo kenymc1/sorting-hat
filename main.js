@@ -59,10 +59,29 @@ formButton();
 const makeCard = (arr) => {
   const name = document.getElementById('studentName').value
   let randomHouse = houseNames[Math.floor(Math.random() * houseNames.length)];
+  let houseImage;
+  let className;
+  if (randomHouse === 'Gryffindor') {
+    className = "griff";
+    houseImage = "img/houses_0000_grif.png"
+  }
+  else if (randomHouse === 'Hufflepuff') {
+    className = "huff";
+    houseImage = "img/houses_0002_huiff.png"
+  }
+  else if (randomHouse === 'Ravenclaw') {
+    className = "raven";
+    houseImage = "img/houses_0001_raven.png"
+  }
+  else {
+    className = "slyth";
+    houseImage = "img/houses_0003_slyth.png"
+  }
+  console.log('yo!!');
   let cardPrint = `
-        <div class="card-body text-center col-m-4 d-inline-flex" style="width: 30%;">  
+        <div class="card-body text-center col-m-4 d-inline-flex ${className}" style="width: 30%;">  
         <div class="card-body">
-        <img class="card-img-top" src="img/logo2.png" alt=>          
+        <img class="card-img-top" src="${houseImage}" alt=>          
             <h2 class="card-title">${name}</h2>
             <p class="card-text text-center">${randomHouse}</p>
             <button type= "submit" class= "expel">Expel</button>
