@@ -83,19 +83,37 @@ html {
   }
   
   .card {
-    margin: 10px ;
+    margin: 20px ;
     Box-shadow: 12px 12px 12px 0 rgb(110, 105, 105);
     margin-bottom: 10px; 
   }
   
   .card-body {
-    background-color: #a51731 ;
+    /* background-color: #a51731 ; */
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
     border-radius: 30px;
     border: solid tan 5px;
+    margin: 1%;
+
   }
+ 
   
+.griff {
+  background-color: #760c0f;
+}
+.raven {
+  background-color: #102551;
+}
+.huff{
+  background-color: #ffcd48;
+}
+.slyth {
+  background-color: #1d7452;
+}
+
+
+
 .school {
   padding: 100px;
   background-image: url("img/background.png");
